@@ -8,13 +8,10 @@
 /* COMMON  */
 .flex {
     display: flex;
-    
-    
 }
 
 .space-bet{
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 ul {
@@ -25,7 +22,6 @@ ul {
 .container {
     height: 50px;
     width: 100%;
-
     /* debug */
     background-color: lightgoldenrodyellow;
     min-height: 40px;
@@ -43,37 +39,119 @@ ul {
 }
 
 /* MAIN  */
-main {
-    
-    
-}
-.container-jumbo {
-    
+
+/* section-1  */
+.section-1 {
     background-color: #B4D0E7;
+    padding-top: 40px;
+}
+
+.section-jumbo {
+    margin: 0 30px; 
     position: relative;
     /* debug  */
     height: 650px;
-    
 }
 
 .jumbo {
     width: 40%;
     position: absolute;
-    right: 100px;
-    bottom: -30px;
-   
+    bottom: -50px;
+    right: 15px;
     
     /* debug  */
     height: 450px;
     background-color: blue;
-
 }
 
+/* section-2  */
 .business-plane {
-    display: inline-block;
+    max-width: 1100px;
+    margin: auto; 
+    padding-top: 300px;
+    gap: 25px;
 }
 
 .column {
-  
-    
+    width: calc(100% /3 - (50px / 3));
+    /* debug  */
+    background-color: brown;
+    height: 800px;
+}
+
+/* section-3  */
+.section-3 {
+    width: 58%;
+    margin:150px auto;
+    /* debug  */
+    height: 260px;
+    background-color: coral;  
+}
+
+/* section-4  */
+
+.section-4 {
+    height: 500px;
+    width: 58%;
+    margin: auto;
+    /* debug  */
+    background-color:lightseagreen;
+}
+
+/* section-5  */
+
+.container-sec5 {
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;  
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 150px;
+}
+
+.column-operations {
+    height: 450px;
+    width: calc(100% /3 - (50px / 3));
+    /* debug  */
+    background-color: lightgreen;
+}
+
+/* section-6  */
+
+.section-6 {
+    width: 58%;
+    margin: 150px auto;
+
+    /* debug  */
+    height: 200px;
+    background-color: crimson;
+}
+
+
+/* section-7  */
+.section-7 {
+    width: 100%;
+    /* debug  */
+    height: 450px;
+    background-color: darkgreen;
+}
+
+/* section-8  */
+.section-8 {
+    width: 100%;
+    /* debug  */
+    height: 220px;
+    background-color: lightskyblue;
+}
+
+/* section-9  */
+.section-9 {
+    width: 100%;
+    /* debug  */
+    height: 450px;
+    background-color: rgb(190, 120, 201);
 }
