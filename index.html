@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Style  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -28,14 +30,11 @@
                     <li><a href="Supporto">Supporto</a></li>
                     <li><a href="Contatta l'ufficio vendite">Contatta l'ufficio vendite</a></li>
                     <li><a href="Accedi">Accedi</a></li>
-                    <li><a class="link-button" href="Inizia">Inizia</a></li>
+                    <li><a class="link-button small" href="Inizia">Inizia</a></li>
                 </ul>
 
             </nav>
             <!-- /Navigation -->
-    
-        
-        
     </header>
     <!-- /HEADER  -->
 
@@ -43,58 +42,216 @@
     <main>
         <!-- jumbo  -->
         <section class="section-1">
-            <div class="special-section">
+            <div class="special-section position">
                 <h1>Tutto ciò che vi serve per il lavoro, in un unico posto</h1>
-                <div class="text-row">
-                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business e più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                <div class="jumbo flex">
+                    <div class="text-row">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business e più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                    </div>
+                    <div class="link-button big">Inizia la tua prova gratuita</div>
+                    <div>Annulla in qualsiasi momento</div>
+                    <div class="img-row">
+                    <img src="img/jumbo.png" alt="">  
+                        
                 </div>
-                
-                <div class="img-row">
-                 <img src="img/jumbo.png" alt="">  
-                    
-                </div>
-
+            </div>
             </div>
 
         </section>
         
+        
         <section class="section-2">
             <div class="big-section">
-                <h2>Titolo</h2>
-                
-                <div class="business-plane flex">
-                    <div class="single-column column"></div>
-                    <div class="team-column column"></div>
-                    <div class="azienda-column column"><div>
+                <h2>Trova il piano che fa per te</h2>
+                <input class="radio-but" type="radio">Fatturazione mensile
+                <input class="radio-but" type="radio">Fatturazione annuale
+            
+                <div class="business-plane flex space-bet">
+                    <div class="single-column column">
+                        <div class="first-row">
+                            <i class="fa-solid fa-user"></i> Singolo
+                        </div>
+                        <div class="padding">
+                            
+                        <h3>Professional</h3>
+                        <h4>&#8364; 12.00</h4>
+                        <div>/mese</div>
+                            
+                        <p class="plan-text"><i class="fa-solid fa-user"></i> 1 utente</p>
+
+                        <br/>
+
+                        <p class="plans-text"><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro<p>
+
+                        <p class="plans-text"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura<p> 
+
+                        <div class="link-button big"><a href="prova gratis">Prova gratis per 30 giorni</a></div>
+                        <div class="">oppure <a href="">acquista ora</a></div>
+
+                        <hr class="plan-hr">
+
+                        <ul><strong>Punti Salienti Del piano</strong>
+
+                            <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
+
+                            <li><i class="fa-solid fa-check"></i> Cartelle Offline su dispositivi mobili</li>
+
+                        </ul>
+                            
+                    </div>
                 </div>
-                
-            </div>   
-        </section>
+                            
     
-        <section class="section-3">
-            <div class="contacts">
-            </div>
+                <div class="team-column column">
+                    <div class="first-row">
+                        <i class="fa-solid fa-users"></i> Team
+                    </div>
+                    <div class="padding">
+                            
+                    <h3>Advanced</h3>
+                    <h4>&#8364; 18.00</h4>
+                    <div>/utente/mese</div>
+                            
+                    <p class="plan-text"><i class="fa-solid fa-users"></i> 3 o più utenti</p>
 
+                    <br/>
+
+                    <p class="plans-text"><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team<p>
+
+                    <p class="plans-text"><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team <p> 
+
+                    <div class="link-button big"><a href="prova gratis">Prova gratis per 30 giorni</a></div>
+                    <div class="">oppure <a href="">acquista ora</a></div>
+
+                    <hr class="plan-hr">
+
+                    <ul><strong>Punti Salienti Del piano</strong>
+
+                        <li><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</li>
+
+                        <li><i class="fa-solid fa-check"></i> Cartelle Offline su dispositivi mobili</li>
+                        <li><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                        <li><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</li>
+                        <li><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</li>
+                    </ul>
+                            
+                </div>
+    
+                </div>
+                <div class="azienda-column column">
+                    <div class="first-row">
+                        <i class="fa-solid fa-building"></i> Azienda
+                    </div>
+                    <div class="padding">
+                    
+                    <h3>Enterprise</h3>
+                    <h4>Contattaci</h4>
+                    <div>-</div>
+                    
+                    <p class="plan-text"><i class="fa-solid fa-user"></i> 10 o più utenti</p>
+
+                    <br/>
+
+                    <p class="plans-text"><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda<p>
+
+                    <p class="plans-text"><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala<p> 
+
+                    <div class="link-button big"><a href="Contattaci">Contattaci</a></div>
+                    <div class="">oppure <a href="">acquista ora</a></div>
+
+                    <hr class="plan-hr">
+
+                    <ul><strong>Punti Salienti Del piano</strong>
+
+                        <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+
+                        <li><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</li>
+
+                        <li><i class="fa-solid fa-check"></i> Servizio di personalizzazione totale</li>
+
+                    </ul>
+                    
+                </div>
+                       
+            <div>
         </section>
 
+
+            <section class="section-3">
+                <div class="">
+                    <div class="special-section bord-l bord-r bord-bot">
+                        <div class="team-title">
+                            <i class="fa-solid fa-building"></i>Team 
+                        </div>
+                        <h3>Enterprise</h3>
+                        <h5>Contatta l'ufficio vendite per i prezzi</h5>
+                        <span class="span-sec3">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</span>
+                        <div class="link-button big">Contatta l'ufficio vendite</div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
         <section class="section-4">
             <div class="container-sec4 flex">
-                <div class="img-sec4"></div>
-                <div class="find-partner"></div>
+                <div class="img-sec4"><img src="img/partner.png" alt=""></div>
+                <div class="find-partner">
+                    <h3>Entra in contatto con un partner Dropbox</h3>
+                    <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <div class="white-but"><a href="">Trova un partner</a></div>
+                </div>
+                
             </div>
         </section>
 
         <section class="section-5">
+
+            <h2 class="title-sec5">Esegui più operazioni con Dropbox Business</h2>
             
             <div class="container-sec5 flex-wrap">
-
-                <div class="column-operations"></div>
-                <div class="column-operations"></div>
-                <div class="column-operations"></div>
-                <div class="column-operations"></div>
-                <div class="column-operations"></div>       
-                <div class="column-operations"></div>  
+                
+                <div class="column-operations">
+                    <img src="img/business-feature-switching-tools.png">
+                    <span>
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </span>
+                </div>
+                <div class="column-operations">
+                    <img src="img/business-feature-send-files-it.png">
+                    <span>
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </span>
+                </div>
+                <div class="column-operations">
+                    <img src="img/business-feature-coordinate-it.png">
+                    <span>
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </span>
+                </div>
+                <div class="column-operations">
+                    <img src="img/business-feature-integrations-it.png">
+                    <span>
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </span>
+                </div>
+                <div class="column-operations">
+                    <img src="img/business-feature-multi-device.png">
+                    <span>
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </span>
+                </div>       
+                <div class="column-operations">
+                    <img src="img/business-feature-security.png">
+                    <span>
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </span>
+                </div>  
             </div>
                   
         </section>
