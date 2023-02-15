@@ -48,8 +48,7 @@ img {
 
 .big {
     margin: 35px;
-    padding: 15px 10px; 
-    text-align: center;
+    padding: 15px 10px;
 }
 
 .padding {
@@ -67,6 +66,9 @@ img {
 .container {
     width: 100%;
     padding: 12px;
+    position: fixed;
+    z-index: 999px;
+    background-color: white;
 }
 
 nav a {
@@ -84,9 +86,8 @@ nav a {
 /* section-1  */
 
 .section-1 {
-    height: 480px;
     background-color: #B4D0E7;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
 h1 {
@@ -96,21 +97,27 @@ h1 {
 .img-row {
     width: 50%;
     position: absolute;
-    bottom: -185px;
     right: 15px;
+    bottom: -65px;
+   
 }
 
 .text-row {
     width: 40%;
-    vertical-align: middle;
+    font-size: 15px;
+    /* debug  */
     background-color: blueviolet;
-    font-size: 18px;
 }
 
 .jumbo {
     margin-top: 20px;
+    height: 250px;
 }
 
+.arrow {
+    font-size: 35px;
+
+}
 .big-section {
     width: 100%;
     max-width: 1100px;
