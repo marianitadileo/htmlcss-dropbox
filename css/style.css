@@ -71,7 +71,7 @@ h3 {
     width: 100%;
     padding: 12px;
     position: fixed;
-    z-index: 999px;
+    z-index: 999;
     background-color: white;
 }
 
@@ -103,19 +103,14 @@ h1 {
     position: absolute;
     right: 15px;
     bottom: -65px;
-   
 }
 
 .text-fix {
     width: 25%;
-    
-    
 }
 .text-row {
     width: 40%;
-    font-size: 15px;
-    /* debug  */
-    
+    font-size: 15px;   
 }
 
 .jumbo {
@@ -125,8 +120,8 @@ h1 {
 
 .arrow {
     font-size: 35px;
-
 }
+
 .big-section {
     width: 100%;
     max-width: 1100px;
@@ -174,8 +169,7 @@ h1 {
 
 /* section-3  */
 .section-3 {
-    width: 100%;
-    margin-top: 100px;  
+    width: 100%; 
 }
 
 .team-title {
@@ -256,32 +250,117 @@ h1 {
 .section-6 {
     width: 58%;
     margin: 150px auto;
-
-    /* debug  */
-    
-    background-color: crimson;
-}
-
-.more {
-    
 }
 
 /* section-7  */
 
 .section-7 {
-    width: 100%;
-    /* debug  */
-    height: 450px;
-    background-color: darkgreen;
+    width: 100%; 
 }
+
+.sponsor-container {
+    display: flex;
+}
+
+.container-card {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 40%;
+    filter: invert(100%); 
+}
+
+.card-1 {
+    background-color: #A2D39B;
+    border: 20px solid #D1E9CD;
+}
+
+.card-2 {
+    background-color:#61082B ;
+}
+
+.card-3 {
+    background-color: #0093CE;
+}
+
+.card-4 {
+    background-color: #FF1C1C;
+}
+
+.card-5 {
+    background-color: #D5001F;
+}
+
+.card-6 {
+    background-color: #B4D0E7;
+}
+
+.card-7 {
+    background-color: #0D2481;
+}
+
+.card-8 {
+    background-color: #FFD830;
+}
+
+.sponsor-description{
+    overflow-y: scroll;
+    padding:  30px 40px;
+    display: inline-block;
+}
+
+.sponsor-description img {
+    width: 40%;
+}
+
+ .sponsor-hr {
+    width: 20%;
+    margin-top: 20px;
+    border: 1px solid #D5D5D7;
+ }
+
+ .sponsor-description p {
+    margin: 50px 0;
+ }
 
 /* section-8  */
 
 .section-8 {
     width: 100%;
-    /* debug  */
-    height: 220px;
-    background-color: lightskyblue;
+    background-color: #B4D0E7;
+    height: 250px;
+}
+
+.sec-8-flex {
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+}
+
+#h2-sec8 {
+    color: #61082B;
+}
+
+.but-white-large {
+    padding: 10px 30px;
+    background-color: white;
+}
+
+.section-8 a {
+    text-decoration: none;
+    color: black;
 }
 
 /* section-9  */
