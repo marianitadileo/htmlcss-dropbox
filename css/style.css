@@ -108,6 +108,7 @@ h1 {
 .text-fix {
     width: 25%;
 }
+
 .text-row {
     width: 40%;
     font-size: 15px;   
@@ -152,7 +153,6 @@ h1 {
     text-align: center; 
     text-indent: 0;
     margin-bottom: 45px;
-
 }
 
 .plan-text {
@@ -219,6 +219,7 @@ h1 {
     text-decoration: none;
     color: black;
 }
+
 /* section-5  */
 .title-sec5 {
     padding-top: 50px;
@@ -244,16 +245,15 @@ h1 {
 
 .section-5 p {
     padding-top: 20px;
-
 }
+
 /* section-6  */
 .section-6 {
     width: 58%;
-    margin: 150px auto;
+    margin: 150px 240px;
 }
 
 /* section-7  */
-
 .section-7 {
     width: 100%; 
 }
@@ -366,17 +366,92 @@ h1 {
 /* section-9  */
 
 .section-9 {
-    width: 100%;
-    /* debug  */
-    height: 450px;
-    background-color: rgb(190, 120, 201);
+    margin-top: 150px;
+    margin: 150px 350px 150px 350px;
+}
+
+.box-request {
+    padding: 20px 0;
+}
+
+.arrow-request {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+}
+
+.box-request i.arrow-request {
+    display: none;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+}
+
+.box-request p {
+    padding-top: 50px;
+    display: none;
+}
+
+.hr-sec9 {
+    color: #A0A0A0;
+}
+
+#h2sec9 {
+    padding-bottom: 20px;
 }
 
 /* FOOTER  */
 
 .section-10 {
     width: 100%;
-    /* debug  */
-    height: 400px;
-    background-color: rgb(239, 163, 100);
+    background-color: black;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+.languages {
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.languages a {
+    color: white;
+    text-decoration: none;
+}
+
+.languages a span {
+    position:absolute;
+    bottom: 55px;
+    left: 80px;
+}
+
+.footer-container ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footer-container ul {
+    list-style: none;
+}
+
+.footer-hr {
+    width: 10%;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: white;
 }
