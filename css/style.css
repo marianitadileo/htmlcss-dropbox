@@ -53,6 +53,7 @@ img {
 
 .padding {
     padding-left: 35px;
+    padding-bottom: 60px;
 }
 
 .bord-l {
@@ -63,9 +64,19 @@ img {
     border-right: 1px solid #474747;
 }
 
+.bord-bot {
+    border-bottom: 1px solid #474747;
+}
+
+.margin {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 h3 {
     font-size: 25px;
 }
+
 /* HEADER */
 .container {
     width: 100%;
@@ -95,14 +106,17 @@ nav a {
 }
 
 h1 {
-    font-size: 65px;
+    font-size:50px;
+    margin-left: 60px;
+    padding: 25px 0 25px 0;
 }
 
-.img-row {
+.img-jumbo {
     width: 50%;
     position: absolute;
     right: 15px;
     bottom: -65px;
+    margin-right: 60px;
 }
 
 .text-fix {
@@ -116,11 +130,12 @@ h1 {
 
 .jumbo {
     margin-top: 20px;
-    height: 250px;
+    margin-left: 60px;
 }
 
 .arrow {
-    font-size: 35px;
+    padding: 40px 0 15px 0;
+    font-size: 40px;
 }
 
 .big-section {
@@ -132,19 +147,38 @@ h1 {
 /* section-2  */
 .business-plane {
     gap: 25px; 
-    margin-top: 150px;
+    margin-top: 50px;
+}
+
+.h2-sec2 {
+    margin-bottom: 60px;
 }
 
 .ul-column {
     line-height: 50px;
 }
 
+.radio-but-2 {
+    margin-left: 35px;
+}
 .column {
     width: calc(100% /3 - (50px / 3));
     border: #474747 1px solid;
-    /* debug  */
-    background-color: rgb(194, 163, 163);
-    height: 800px;
+    font-size: 18px;
+    padding-right: 25px;
+}
+
+.column li{
+    line-height: 40px;
+}
+
+.link-button a {
+    text-decoration: none;
+    color: white;
+}
+
+ul i {
+    color: blue;
 }
 
 .first-row { 
@@ -162,15 +196,13 @@ h1 {
 }
 
 .plan-hr {
-    border: 1px solid #474747;
+    border: 1px solid #E3E3E5;
     width: 20%;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /* section-3  */
-.section-3 {
-    width: 100%; 
-}
 
 .team-title {
     padding: 10px;
@@ -178,15 +210,27 @@ h1 {
     text-align: center;
 }
 
+.margin-sec-3 {
+    margin: 0 200px;
+}
+
 .team-text {
     line-height: 30px;
+    width: 65%;
+    padding-left: 25px;
 }
 
-.margin {
-    margin-left: 150px;
-    margin-right: 150px;
+.p-sec3 {
+    margin-top: 40px;
 }
 
+.text-fix {
+    width: 30%;
+}
+
+.h3-sec3 {
+    padding-top: 20px ;
+}
 /* section-4  */
 
 .section-4 {
@@ -356,6 +400,7 @@ h1 {
 .but-white-large {
     padding: 10px 30px;
     background-color: white;
+    height: 50px;
 }
 
 .section-8 a {
@@ -377,16 +422,19 @@ h1 {
 .arrow-request {
     display: inline-block;
     vertical-align: middle;
-    font-weight: bold;
+    
     font-size: 25px;
     position: absolute;
     right: 0;
 }
 
+.box-request i:hover {
+    
+}
+
 .box-request i.arrow-request {
     display: none;
     vertical-align: middle;
-    font-weight: bold;
     font-size: 25px;
     position: absolute;
     right: 0;
